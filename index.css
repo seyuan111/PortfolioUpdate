@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Poppins&family=Yanone+Kaffeesatz&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.navbar{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.heading-content{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5{
+    font-size: 3rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading-content h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+}
+
+.heading-content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.background{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#about .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 10px 10px;
+    background: blue;
+    margin-top: 10px;
+}
+
+#about .btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#about .btn:hover{
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+.pabout{
+    font-size: 35px;
+}
+
+.what{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.picture{
+    margin-top: 20px;
+}
+
+.icons{
+    color: white;
+    display: flex;
+    margin-right: 20px;
+    text-decoration: none;
+}

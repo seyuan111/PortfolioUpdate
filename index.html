@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-all.min.css">
     <link rel="stylesheet" href="index.css">
     <title>Sean Yuan Portfolio</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbarResponsive">
 
     <div id="home">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mx-auto">
-                  <li class="nav-item">
+                  <li class="nav-item active">
                     <a class="nav-link" href="#Home">Home</a>
                   </li>
                   <li class="nav-item">
@@ -32,27 +32,6 @@
                     <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
-              </div>
-              <div class="icons">
-                <a href="" class="me-4 text-reset">
-                  <i class="fab fa-facebook-f">facebook</i>
-                </a>
-                <a href="https://twitter.com/seyuan1111" class="me-4 text-reset">
-                  <i class="fab fa-twitter">twitter</i>
-                </a>
-                <a href="https://www.instagram.com/seyuan111/" class="me-4 text-reset">
-                  <i class="fab fa-instagram">instagram</i>
-                </a>
-                <a href="https://www.linkedin.com/in/sean-yuan-7965b5123/" class="me-4 text-reset">
-                  <i class="fab fa-linkedin">linkedIn</i>
-                </a>
-                <a href="https://github.com/seyuan111" class="me-4 text-reset">
-                  <i class="fab fa-github">github</i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                  <i class="icon solid fa-envelope">ysean54@yahoo.com</i>
-                </a>
-              </div>
             </div>
           </nav>
 
@@ -65,7 +44,7 @@
           </div>
     </div>
 
-    <div id="about" class="container mt-5 pb-5">
+    <div id="about" class="offset container mt-5 pb-5">
         <div class="post-heading text-center">
             <h3 class="display-1 font-weight-bold">About Me</h3>
             <hr class="w-50 mx-auto">
@@ -184,6 +163,37 @@
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
+    </div>
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div class="icons">
+      <a href="https://twitter.com/seyuan1111" class="me-4 text-reset">
+        <i class="fab fa-twitter">twitter</i>
+      </a>
+      <a href="https://www.instagram.com/seyuan111/" class="me-4 text-reset">
+        <i class="fab fa-instagram">instagram</i>
+      </a>
+      <a href="https://www.linkedin.com/in/sean-yuan-7965b5123/" class="me-4 text-reset">
+        <i class="fab fa-linkedin">linkedin</i>
+      </a>
+      <a href="https://github.com/seyuan111" class="me-4 text-reset">
+        <i class="fab fa-github">github</i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="icon solid fa-envelope">ysean54@yahoo.com</i>
+      </a>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

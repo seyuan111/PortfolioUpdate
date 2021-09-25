@@ -49,7 +49,7 @@ body{
     font-size: 2rem;
     font-weight: lighter;
     color: white;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Poppins', sans-serif;
     word-spacing: 5px;
     letter-spacing: 2px;
 }
@@ -95,7 +95,7 @@ body{
 }
 
 .icons{
-    color: white;
+    color: black;
     display: flex;
     margin-right: 20px;
     text-decoration: none;

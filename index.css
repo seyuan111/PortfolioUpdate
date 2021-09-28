@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Poppins&family=Yanone+Kaffeesatz&display=swap');
 
 body{
+    background-color: #37474f;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,6 +10,7 @@ body{
 }
 
 .navbar{
+    color: white;
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 0.3rem;
@@ -18,7 +20,7 @@ body{
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: grey;
+    color: white;
     align-items: center;
     justify-content: center;
     padding-left: 20px;
@@ -42,7 +44,7 @@ body{
     font-size: 5rem;
     font-weight: bolder;
     color: white;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .heading-content p{
@@ -64,7 +66,7 @@ body{
 #about .btn{
     border: 2px solid transparent;
     width: 40%;
-    padding: 10px 10px;
+    padding: 15px 10px;
     background: blue;
     margin-top: 10px;
 }
@@ -81,7 +83,12 @@ body{
     cursor: pointer;
 }
 
+#about .aboutme{
+    color: white;
+}
+
 .pabout{
+    color: white;
     font-size: 35px;
 }
 
@@ -99,4 +106,12 @@ body{
     display: flex;
     margin-right: 20px;
     text-decoration: none;
+}
+
+#projects{
+    color: white;
+}
+
+#contact{
+    color: white;
 }
